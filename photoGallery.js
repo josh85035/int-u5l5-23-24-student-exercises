@@ -14,7 +14,7 @@ let imageUrls = ["https://upload.wikimedia.org/wikipedia/commons/5/56/Angel_Clem
 
 imageUrls.forEach(function(element){
     let image = document.createElement("img");
-    image.src = imageUrls[element];
+    image.src = element;
     imageContainer.appendChild(image);
 });
 
